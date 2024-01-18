@@ -1,0 +1,204 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good morning",
+        "morning",
+        "Can you help me?",
+        "Help me please",
+        "Please",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "See you", "Leaving"],
+      "responses": [
+        "See you later!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "Bitcoin",
+      "patterns": ["How much worth Bitcoin?", "What is Bitcoin?", "Who is the creator of Bitcoin?"],
+      "responses": [
+        "Satoshi Nakamoto",
+        "40K euros",
+        "Bitcoin is a cryptocurrency created in 2009"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "Tell me about the weather",
+        "Is it going to rain today?"
+      ],
+      "responses": [
+        "The weather is sunny and warm today",
+        "Expect some rain later in the day",
+        "It's a chilly day with clouds"
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "Tell me about the latest technology news",
+        "What's new in tech?",
+        "Any interesting tech updates?"
+      ],
+      "responses": [
+        "The latest technology news includes advancements in artificial intelligence",
+        "Tech companies are launching innovative products this month",
+        "Stay tuned for exciting tech developments"
+      ]
+    },
+    {
+      "tag": "blockchain",
+      "patterns": [
+        "What is blockchain?",
+        "How does blockchain work?",
+        "Tell me about the benefits of blockchain"
+      ],
+      "responses": [
+        "Blockchain is a decentralized and distributed ledger technology",
+        "It works by recording transactions in a secure and transparent manner",
+        "Benefits of blockchain include increased security, transparency, and efficiency"
+      ]
+    },
+        {
+          "tag": "cryptocurrency",
+          "patterns": [
+            "What is the future of cryptocurrencies?",
+            "Tell me about altcoins",
+            "How can I secure my cryptocurrency?"
+          ],
+          "responses": [
+            "The future of cryptocurrencies involves continued growth and adoption, with potential regulatory developments",
+            "Altcoins refer to alternative cryptocurrencies to Bitcoin, such as Ethereum, Ripple, and Litecoin",
+            "To secure your cryptocurrency, use hardware wallets, enable two-factor authentication, and stay informed about security best practices"
+          ]
+        },
+        {
+          "tag": "bitcoin history",
+          "patterns": [
+            "What is bitcoin?",
+            "history",
+            "what is the history of bitcoin",
+            "Who has created Bitcoin",
+            "creator of Bitcoin",
+            "creator",
+            "creation"
+          ],
+          "responses": [
+            "Bitcoin is a cryptocurrency created in 2009. It operates on a decentralized network using blockchain technology to enable secure and transparent transactions. Bitcoin is often referred to as digital gold and is the first and most well-known cryptocurrency. Its creator, known by the pseudonym Satoshi Nakamoto, introduced it as an alternative form of currency not controlled by any central authority."
+          ]
+        },
+        {
+          "tag": "bitcoin price",
+          "patterns": [
+            "What is the current bitcoin price?",
+            "current price",
+            "price",
+            "How much Bitcoin worth?",
+            "Bitcoin worth"
+          ],
+          "responses": [
+            "The value of Bitcoin can vary and is determined by market demand and supply. At my last update, the price of Bitcoin was around 40,000 euros. However, it's essential to check the latest market prices, as cryptocurrency values can be highly volatile and change rapidly."
+          ]
+        },
+        {
+          "tag": "investing",
+          "patterns": [
+            "Is investing in cryptocurrencies a good idea?",
+            "What are the risks of investing in cryptocurrency?",
+            "Tell me about successful cryptocurrency investors"
+          ],
+          "responses": [
+            "Investing in cryptocurrencies carries risks and rewards; it's essential to research and diversify",
+            "Risks include market volatility, regulatory changes, and technological vulnerabilities",
+            "Successful cryptocurrency investors often stay informed, diversify their portfolio, and manage risks"
+          ]
+        },
+        {
+          "tag": "mining",
+          "patterns": [
+            "What is cryptocurrency mining?",
+            "What bitcoin mining means",
+            "Tell me about mining pools"
+          ],
+          "responses": [
+            "Cryptocurrency mining involves validating transactions and adding them to the blockchain",
+            "To start mining, you'll need specialized hardware, software, and join a mining pool or go solo",
+            "Mining pools are groups of miners who combine their computing power to increase the chances of successfully mining a block and sharing the rewards"
+          ]
+        }
+      ]
+    }   
+
